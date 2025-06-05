@@ -1,0 +1,5 @@
+*.lck
+*.kicad_prl
+
+build
+.vscode

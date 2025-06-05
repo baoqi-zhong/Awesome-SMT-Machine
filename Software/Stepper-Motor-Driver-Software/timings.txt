@@ -1,0 +1,12 @@
+电流环频率: 设计 42500 Hz   实际 42580 Hz
+电流环周期: 设计 23.53 us   实际 23.48 us
+
+
+0    us     Update Event
+<1.5 us     ADC 被触发, 开始采样
+1.5  us     MA732 读取程序开始
+2.0  us     MA732 CS 下拉, CLK 开始读取
+2.9  us     MA732 CS 上拉, 读取完毕
+3.1  us     MA732 FIFO 刷新完毕, 开始处理数据
+8.4  us     HAL_ADC_ConvCpltCallback 被调用, 正式进入电流环
+20.5 us     电流环处理完毕, 开始调用 setPhaseVoltage
