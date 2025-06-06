@@ -4,8 +4,8 @@
 
 Contributors:
 <p float="left">
-  <img src="https://avatars.githubusercontent.com/u/66853126?v=4" width="50" border-radius="50%" />
-  <img src="https://avatars.githubusercontent.com/u/51425827?v=4" width="50" border-radius="50%" />
+  <a href="https://github.com/baoqi-zhong"><img src="https://avatars.githubusercontent.com/u/66853126?v=4" width="50"/></a>
+  <a href="https://github.com/ZimingXian"><img src="https://avatars.githubusercontent.com/u/51425827?v=4" width="50" border-radius="50%" /></a>
 </p>
 
 **Awesome SMT Machine** began as a HKUST course project and now become project with software, hardware and mechanical design completely open sourced. This project integrates another project **Nema-17 stepper motor FOC driver**.
