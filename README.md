@@ -2,21 +2,18 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
-<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
-    <a href="https://github.com/baoqi-zhong">
-        <img src="https://avatars.githubusercontent.com/u/66853126?v=4" width="50" height="50" style="border-radius: 50%;">
-    </a>
-    <a href="https://github.com/ZimingXian">
-        <img src="https://avatars.githubusercontent.com/u/51425827?v=4" width="50" height="50" style="border-radius: 50%;">
-    </a>
-</div>
+Contributors:
+<p float="left">
+  <img src="https://avatars.githubusercontent.com/u/66853126?v=4" width="50" border-radius="50%" />
+  <img src="https://avatars.githubusercontent.com/u/51425827?v=4" width="50" border-radius="50%" />
+</p>
 
 **Awesome SMT Machine** began as a HKUST course project and now become project with software, hardware and mechanical design completely open sourced. This project integrates another project **Nema-17 stepper motor FOC driver**.
 
-<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
-    <img align="left" alt="img" src="./Docs/Image/1.jpg" width="50%" height="100%" />
-    <img align="right" alt="img" src="./Docs/Image/8.jpg" width="50%" height="100%" />
-</div>
+<p float="left">
+  <img src="./Docs/Image/1.jpg" width="500" />
+  <img src="./Docs/Image/8.jpg" width="500" />
+</p>
 
 **Key Features**:
 - **Core-XY Structure**: Enhanced precision, High speed.
@@ -25,10 +22,11 @@
 
 
 # Hardware
-<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
-    <img align="left" alt="img" src="./Docs/Image/2.jpg" width="35%" height="100%" />
-    <img align="right" alt="img" src="./Docs/Image/7.png" width="65%" height="100%" />
-</div>
+<p float="left">
+  <img src="./Docs/Image/2.jpg" width="400" />
+  <img src="./Docs/Image/7.png" width="600" />
+</p>
+
 PCB design is based on Kicad.
 
 File description:
@@ -41,11 +39,10 @@ File description:
 ```
 
 ## Main Control Board
-<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
-    <img align="left" alt="img" src="./Docs/Image/3.png" width="60%" height="100%" />
-    <img align="right" alt="img" src="./Docs/Image/5.png" width="40%" height="100%" />
-</div>
-
+<p float="left">
+  <img src="./Docs/Image/3.png" width="600" />
+  <img src="./Docs/Image/5.png" width="400" />
+</p>
 
 Based on STM32G431CBU6 MCU, SC8815 battery management, ACM8625S I2S audio amplifier. More detail, see [Main Control Board Schematic](./Hardware/Main-Control-Board/Main-Control-Board-Schematic.pdf)
 
@@ -57,10 +54,10 @@ Based on STM32G431CBU6 MCU, SC8815 battery management, ACM8625S I2S audio amplif
 - **RGB!**: ~~200% performance improvement!~~
 
 ## Stepper Motor FOC Driver
-<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
-    <img align="left" alt="img" src="./Docs/Image/4.png" width="30%" height="auto" />
-    <img align="right" alt="img" src="./Docs/Image/6.png" width="70%" height="100%" />
-</div>
+<p float="left">
+  <img src="./Docs/Image/4.png" width="300" />
+  <img src="./Docs/Image/6.png" width="700" />
+</p>
 
 Based on STM32G431CBU6 MCU, DRV8412 gate driver, MA732 magnetic encoder, WS2812 RGB led. More detail, see [Stepper Motor FOC Driver Schematic](./Hardware/Stepper-Motor-FOC-Driver/Stepper-Motor-FOC-Driver-Schematic.pdf)
 
