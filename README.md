@@ -11,8 +11,8 @@ Contributors:
 **Awesome SMT Machine** began as a HKUST course project and now become project with software, hardware and mechanical design completely open sourced. This project integrates another project **Nema-17 stepper motor FOC driver**.
 
 <p float="left">
-  <img src="./Docs/Image/1.jpg" width="500" />
-  <img src="./Docs/Image/8.jpg" width="500" />
+  <img src="./Docs/Image/1.jpg" width="400" />
+  <img src="./Docs/Image/8.jpg" width="400" />
 </p>
 
 **Key Features**:
@@ -23,8 +23,8 @@ Contributors:
 
 # Hardware
 <p float="left">
-  <img src="./Docs/Image/2.jpg" width="400" />
-  <img src="./Docs/Image/7.png" width="600" />
+  <img src="./Docs/Image/2.jpg" width="320" />
+  <img src="./Docs/Image/7.png" width="480" />
 </p>
 
 PCB design is based on Kicad.
@@ -40,8 +40,8 @@ File description:
 
 ## Main Control Board
 <p float="left">
-  <img src="./Docs/Image/3.png" width="600" />
-  <img src="./Docs/Image/5.png" width="400" />
+  <img src="./Docs/Image/3.png" width="480" />
+  <img src="./Docs/Image/5.png" width="320" />
 </p>
 
 Based on STM32G431CBU6 MCU, SC8815 battery management, ACM8625S I2S audio amplifier. More detail, see [Main Control Board Schematic](./Hardware/Main-Control-Board/Main-Control-Board-Schematic.pdf)
@@ -55,8 +55,8 @@ Based on STM32G431CBU6 MCU, SC8815 battery management, ACM8625S I2S audio amplif
 
 ## Stepper Motor FOC Driver
 <p float="left">
-  <img src="./Docs/Image/4.png" width="300" />
-  <img src="./Docs/Image/6.png" width="700" />
+  <img src="./Docs/Image/4.png" width="240" />
+  <img src="./Docs/Image/6.png" width="560" />
 </p>
 
 Based on STM32G431CBU6 MCU, DRV8412 gate driver, MA732 magnetic encoder, WS2812 RGB led. More detail, see [Stepper Motor FOC Driver Schematic](./Hardware/Stepper-Motor-FOC-Driver/Stepper-Motor-FOC-Driver-Schematic.pdf)
